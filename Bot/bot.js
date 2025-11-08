@@ -2,7 +2,7 @@ const { Telegraf } = require("telegraf");
 const TOKEN = "8559491752:AAFz6gFQ8fUs0CUFCrDHE3aPNwLN8IrZH_M";
 const bot = new Telegraf(TOKEN);
 
-const web_link = "https://celebrated-torte-184681.netlify.app/";
+const web_link = "https://telegram-web-app-tan.vercel.app/";
 
 bot.start((ctx) =>
   ctx.reply("Welcome :)))))", {
